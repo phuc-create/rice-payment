@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./index.scss"
+import { PaymentContext } from './context/PaymentContext';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
+
   <React.StrictMode>
+    <PaymentContext>
     <App />
+    </PaymentContext>
   </React.StrictMode>
 );
 

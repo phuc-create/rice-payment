@@ -1,0 +1,17 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 1rem;
+  }
+
+  .menu {
+    padding: 0 1rem;
+  }
+}
